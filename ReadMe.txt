@@ -11,3 +11,11 @@ npm i -D nodemon dotenv
 /client - for client
 
 ## in /server create index.js
+
+## For client
+
+npx create-react-app client
+
+## in client folders
+
+npm i @apollo/client graphql react-router-dom react-icons
