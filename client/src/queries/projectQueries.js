@@ -8,7 +8,7 @@ const GET_PROJECTS = gql`
             status
         }
     }
-`
+`;
 
 const GET_PROJECT = gql`
     query getProject($id: ID!) {
@@ -26,6 +26,6 @@ const GET_PROJECT = gql`
         }
     }
 
-`
+`;
 
 export { GET_PROJECTS, GET_PROJECT };

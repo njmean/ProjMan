@@ -94,7 +94,7 @@ export default function AddClientModal() {
                   <input
                     type="phone"
                     className="form-control"
-                    id="text"
+                    id="phone"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                   />
